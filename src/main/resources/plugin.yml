@@ -1,0 +1,9 @@
+name: ${artifactId}
+main: com.github.Cnly.BeReplaced.BeReplaced.Main
+version: ${version}
+author: Cnly
+
+commands:
+  ber:
+    description: The main command of BeReplaced.
+    usage: /ber to replace the plugins specified in config.yml and reload the server.
