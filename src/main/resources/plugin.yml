@@ -1,9 +1,9 @@
 name: ${artifactId}
-main: com.github.Cnly.BeReplaced.BeReplaced.Main
+main: com.github.Cnly.BReplacer.BReplacer.Main
 version: ${version}
 author: Cnly
 
 commands:
-  ber:
-    description: The main command of BeReplaced.
-    usage: /ber to replace the plugins specified in config.yml and reload the server.
+  brp:
+    description: The main command of BReplacer.
+    usage: /brp to replace the plugins specified in config.yml and reload the server.

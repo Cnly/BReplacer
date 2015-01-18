@@ -1,4 +1,4 @@
-package com.github.Cnly.BeReplaced.BeReplaced;
+package com.github.Cnly.BReplacer.BReplacer;
 
 import java.io.File;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Main extends JavaPlugin
         
         saveDefaultConfig();
         
-        getCommand("ber").setExecutor(this);
+        getCommand("brp").setExecutor(this);
         
     }
     
@@ -39,7 +39,7 @@ public class Main extends JavaPlugin
         
         List<String> pathList = getConfig().getStringList("pluginPaths");
         
-        if (!sender.hasPermission("BeReplaced.use"))
+        if (!sender.hasPermission("BReplacer.use"))
         {
             
             sender.sendMessage(ChatColor.RED + "You don't have permission!");

@@ -1,4 +1,4 @@
-package com.github.Cnly.BeReplaced.BeReplaced;
+package com.github.Cnly.BReplacer.BReplacer;
 
 import java.io.File;
 import java.io.FileInputStream;
